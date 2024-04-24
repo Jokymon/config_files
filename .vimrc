@@ -14,6 +14,10 @@
 :set autoindent
 :set smartindent
 
+if has("gui_running")
+  :set guifont=Fira\ Code:h11
+endif
+
 let g:explVertical=1
 let g:explWinSize=25
 
