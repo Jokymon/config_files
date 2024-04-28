@@ -2,6 +2,7 @@
 :color darkblue
 :syntax on
 
+:set belloff=all
 :set incsearch
 :set hlsearch
 
