@@ -1,0 +1,17 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "profiles":
+    {
+        "defaults":
+        {
+            "bellStyle": "none",
+            "font":
+            {
+                "face": "Fira Code Retina"
+            }
+        }
+    }
+}
