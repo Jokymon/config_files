@@ -1,8 +1,56 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions":
+    [
+        {
+            "command":
+            {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command":
+            {
+                "action": "quakeMode"
+            }
+        },
+        {
+            "command":
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+n"
+        }
+    ],
     "copyFormatting": "none",
     "copyOnSelect": false,
+    "actions":
+    [
+        {
+            "command":
+            {
+                "action": "switchToTab",
+                "index": 4
+            },
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command":
+            {
+                "action": "quakeMode"
+            }
+        },
+        {
+            "command":
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+n"
+        }
+    ],
     "profiles":
     {
         "defaults":
