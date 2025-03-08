@@ -1,3 +1,5 @@
+New-Alias which get-command
+
 Function SWEN { Set-Location -Path C:\projects\Module\SWEN\ }
 Function WEBT { Set-Location -Path C:\projects\Module\WEBT\ }
 Function TIP { Set-Location -Path C:\projects\Module\TIP\ }
