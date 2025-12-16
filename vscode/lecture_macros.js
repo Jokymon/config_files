@@ -27,6 +27,7 @@ function configureLecture() {
     configWindow.update("zoomLevel", 2.5, true);
 
     let configEditor = vscode.workspace.getConfiguration("editor");
+    configEditor.update("rulers", [], true);
     configEditor.update("fontLigatures", false, true);
 }
 
@@ -38,5 +39,6 @@ function configureDeveloper() {
     configWindow.update("zoomLevel", 1, true);
 
     let configEditor = vscode.workspace.getConfiguration("editor");
+    configEditor.update("rulers", [80, 120], true);
     configEditor.update("fontLigatures", true, true);
 }

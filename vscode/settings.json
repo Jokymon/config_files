@@ -3,5 +3,6 @@
     "telemetry.telemetryLevel": "off",
     "window.zoomLevel": 1,
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "editor.rulers": [80, 120]
 }
