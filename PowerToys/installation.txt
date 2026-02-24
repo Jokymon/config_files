@@ -1,0 +1,5 @@
+The folders in this `PowerToys` folder can be copied to
+
+%LOCALAPPDATA%\Microsoft\PowerToys
+
+to "install" the PowerToys settings
