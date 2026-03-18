@@ -15,8 +15,12 @@
 :set autoindent
 :set smartindent
 
+" Don’t force # to column 0 globally
+autocmd FileType * setlocal cinkeys-=0#
+
 if has("gui_running")
   :set guifont=Fira\ Code:h11
+  :set renderoptions=type:directx
 endif
 
 let g:explVertical=1
